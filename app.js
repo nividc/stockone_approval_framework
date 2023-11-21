@@ -46,7 +46,6 @@ function rejectRequest(approvalId) {
         });
 }
 
-// Function to render workflow details
 function renderWorkflowDetails() {
     
 }
