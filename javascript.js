@@ -8,7 +8,7 @@ const workflows = [
 
 const approvalRequests = [
     { id: 1, value: 120, type: 'urgent', status: 'Pending', approvers: ['Aarav', 'Priya', 'Rajesh', 'Sunita', 'Mohan'] },
-    // Add more simulated data as needed
+    
 ];
 
 function renderWorkflowDetails() {
