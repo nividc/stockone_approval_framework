@@ -1,4 +1,3 @@
-# models/approval_process.py
 class ApprovalProcess:
     def __init__(self, workflows=None):
         self.workflows = workflows or []
@@ -14,9 +13,8 @@ class ApprovalProcess:
 
     def approve_request(self, user, approval):
         if user in approval.current_workflow.approval_users:
-            approval.update_status("Approved")
-            # Additional logic for approval action
+            approval.update_status("Approved")  
         else:
             approval.update_status("Rejected")
-            # Additional logic for rejection action
+            
 
