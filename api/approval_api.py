@@ -1,4 +1,3 @@
-# api/approval_api.py
 from models.approval import Approval
 from models.approval_process import ApprovalProcess
 
@@ -18,5 +17,5 @@ class ApprovalAPI:
         if decision == "approve":
             self.approval_process.approve_request(user, approval)
         else:
-            self.approval_process.approve_request(user, approval)  # Assume rejection for simplicity
+            self.approval_process.approve_request(user, approval)  
 
