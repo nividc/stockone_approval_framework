@@ -1,4 +1,3 @@
-# models/workflow.py
 class Workflow:
     def __init__(self, name, trigger_value, approval_users):
         self.name = name
